@@ -17,10 +17,8 @@ function updateEmployeeWithKeyAndValue(obj, key, value) {
 function destructivelyUpdateEmployeeWithKeyAndValue(obj, key, value) {
     //: this function should work the same as updateEmployeeWithKeyAndValue() but it should mutate the employee Object passed in.
     obj[key] = value;
-    // console.log(obj);
     return obj;
 }
-// destructivelyUpdateEmployeeWithKeyAndValue(employee, 'name', 'Sam');
 
 function deleteFromEmployeeByKey(obj, key) {
     //: this function should take in a employee Object and a key. It should delete the property with that key from the employee Object. This should not mutate the original employee Object; it should return a new Object that doesn't include the identified key-value pair. Hint: use the spread operator!
